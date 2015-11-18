@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Source - blackfriday</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+</head>
+<body>
+	<nav>
+		<div class="menu-warp">
+			<div class="logo"></div>
+			<div class="menu-items">
+				<a href="https://madebysource.com/" target="_blank" title=""><p class="menu-item">STORE</p></a>
+				<a href="https://madebysource.com/academy/" target="_blank" title=""><p class="menu-item">ACADEMY</p></a>
+			</div>
+		</div>
+	</nav>
+	<header>
+		<div class="countdown-warp">
+			<div class="countdown-icon-sales"></div>
+			<h1 class="black-headline">BLACK FRIDAY <div class="sale-icon"></div></h1>
+			<p>DEAL ENDS IN: <span class="countdown-timer">10h 11m 36s</span></p>
+		</div>
+		<div class="chucknorris-warp">
+			<div class="chucknorris-icon"></div>
+			<div class="chucknorris-text">
+				<h2>CHUCK-NORRIS PACK!</h2>
+				<p class="headline-description">Save 10 hours a week butying this all-stars pack — Kick start your productivity!</p>
+				<div class="cta-warp" data-eventName="chuckPack">
+					<div class="price-original-warp">
+						<p class="original-price">$89<span>99</span></p>
+						<div class="red-line"></div>
+					</div>
+					<div class="cta-buy buy-norris">
+						<p class="smaller-price">$39<span>99</span> - BUY NOW!</p>
+					</div>
+				</div>
+				<div class="chucknorris-includes">
+					<p>Including:</p>
+					<a href="https://csshat.com/" title="" target="_blank">
+					<div class="chucknorris-includes-icons">
+						<div class="icon-warp" data-poptext="CSSHat is a cool tool, which let you easily try how will your identity look on social networks.">
+							<div class="icon csshat"></div>
+							<p>CSSHat 2</p>
+						</div>
+						</a>
+						<a href="http://pnghat.madebysource.com/" target="_blank" title="">
+						<div class="icon-warp" data-poptext="PNGHat is a cool tool, which let you easily try how will your identity look on social networks.">
+							<div class="icon pnghat"></div>
+							<p>PNGHat</p>
+						</div>
+						</a>
+						<a href="http://ioshat.madebysource.com/" target="_blank" title="">
+						<div class="icon-warp" data-poptext="iOSHat is a cool tool, which let you easily try how will your identity look on social networks.">
+							<div class="icon ioshat"></div>
+							<p>iOSHat</p>
+						</div>
+						</a>
+						<a href="http://psdcleaner.madebysource.com/" title="" target="_blank">
+						<div class="icon-warp" data-poptext="PSD clenear is a cool tool, which let you easily try how will your identity look on social networks.">
+							<div class="icon psd"></div>
+							<p>PSD<br>Cleaner</p>
+						</div>
+						</a>
+						<a href="http://plugin.subtlepatterns.com/" title="" target="_blank">
+						<div class="icon-warp" data-poptext="Patterns is a cool tool, which let you easily try how will your identity look on social networks.">
+							<div class="icon patters"></div>
+							<p>Subbtle<br>Patterns</p>
+						</div>
+						</a>
+						<a href="http://picjumbo.madebysource.com/" title="" target="_blank">
+						<div class="icon-warp" data-poptext="Pickjumbo is a cool tool, which let you easily try how will your identity look on social networks.">
+							<div class="icon picjumbo"></div>
+							<p>Picjumbo</p>
+						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<h2 class="packeges-headline">DON’T YOU LIKE IT? TRY THESE!</h2>
+		<div class="packeges-warp">
+			<div class="packege design-packege">
+				<h3 class="packege-headline"><span class="des-span"><span class="color-green">D</span><span class="color-blue">E</span><span class="color-orange">S</span><span class="color-red">I</span><span class="color-blue">G</span><span class="color-green">N</span><span class="color-red">E</span><span class="color-orange">R</span></span> PACK</h3>
+				<div class="packege-icon design-packege-icon"></div>
+				<p class="packege-description">Ultra super uber pack full of tool for great tools<br><span class="desginer-modal-open">What’s included</span></p>
+				<div class="cta-warp display-flex" data-eventName="designerPack">
+					<div class="price-original-warp">
+						<p class="original-price">$69<span>99</span></p>
+						<div class="red-line"></div>
+					</div>
+					<div class="cta-buy buy-small blue-buy" id="breakpoint">
+						<p class="smaller-price">$29<span>99</span> - BUY NOW!</p>
+					</div>
+				</div>
+			</div>
+			<div class="packege developer-packege">
+				<h3 class="packege-headline"><span class="dev-span">&lt;developer&gt;</span> PACK</h3>
+				<div class="packege-icon developer-packege-icon"></div>
+				<p class="packege-description">Ultra super uber pack full of tool for great tools<br><span class="developer-modal-open">What’s included</span></p>
+				<div class="cta-warp display-flex" data-eventName="developerPack">
+					<div class="price-original-warp">
+						<p class="original-price">$69<span>99</span></p>
+						<div class="red-line"></div>
+					</div>
+					<div class="cta-buy buy-small blue-buy">
+						<p class="smaller-price">$29<span>99</span> - BUY NOW!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="social-proof">
+		<h2>Join over <span class="users">0</span> designers and developers<br>that already downlaoded our plugins</h2>
+		<div class="social-numbers">
+			<div class=" proof current-countries">
+				<h5 class="country-number">0</h5>
+				<p>Countries</p>
+			</div>
+			<div class=" proof current-download">
+				<h5 class="downloaded">0</h5>
+				<p>downloaded today</p>
+			</div>
+			<div class=" proof current-years">
+				<h5 class="years">0</h5>
+				<p>years with you</p>
+			</div>
+		</div>
+	</section>
+	<section class="elevator-warp">
+		<div class="elevator"></div>
+		<h2>HEY YOU! WANNA BUY SOME DRU... PACKS?<br>TAKE THIS <span class="elevator-click">ELEVATOR</span> UP</h2>
+	</section>
+	<section class="contact">
+		<h2>not enough? check <span><a href="https://madebysource.com/" target="_blank" title="">madebysource.com</a></span></h2>
+	</section>
+	<footer>
+		<div class="footer-warp">
+			<div class="support-social">
+				<div class="email-warp">
+					<div class="email-icon"></div>
+					<p><span>Support:</span> team@madebysource.com</p>
+				</div>
+			</div>
+			<h5>Copyright © 2013-2015 Piffle, LLC. <a href="" title="">Terms & Policies</a></h5>
+		</div>
+	</footer>
+	<div class="popup">
+		<p class="popup-text"></p>
+		<div class="triangle"></div>
+	</div>
+	<div class="popupBig designer-popup">
+		<h3 class="packege-headline"><span class="des-span"><span class="color-green">D</span><span class="color-blue">E</span><span class="color-orange">S</span><span class="color-red">I</span><span class="color-blue">G</span><span class="color-green">N</span><span class="color-red">E</span><span class="color-orange">R</span></span> PACK</h3>		<div class="packegebig-iconwarp">
+			<div class="icon">
+				<a href="http://psdcleaner.madebysource.com/" target="_blank" title="">
+					<h4>PSD Cleaner</h4>
+					<div class="icon-pic psdclean"></div>
+				</a>
+				<p>Lorem ipsum dolor sit amet,  notka vole to neni mozny visjak to nfakt ne tyjo
+				.consectetur adipisicing elit, se</p>
+			</div>
+			<div class="icon">
+				<a href="http://pnghat.madebysource.com/" target="_blank" title="">
+					<h4>PNG Hat</h4>
+					<div class="icon-pic pnghatPop"></div>
+				</a>
+				<p>Lorem ipsum dolor sit amet,  notka vole to neni mozny visjak to nfakt ne tyjo
+				.consectetur adipisicing elit, se</p>
+			</div>
+			<div class="icon">
+				<a href="http://picjumbo.madebysource.com/" target="_blank" title="">
+					<h4>Picjumbo</h4>
+					<div class="icon-pic picjumbo-pop"></div>
+				</a>
+				<p>Lorem ipsum dolor sit amet,  notka vole to neni mozny visjak to nfakt ne tyjo
+				.consectetur adipisicing elit, se</p>
+			</div>
+			<div class="icon">
+				<a href="http://plugin.subtlepatterns.com/" target="_blank" title="">
+					<h4>Subtle Patterns</h4>
+					<div class="icon-pic subtle"></div>
+				</a>
+				<p>Lorem ipsum dolor sit amet,  notka vole to neni mozny visjak to nfakt ne tyjo
+				.consectetur adipisicing elit, se</p>
+			</div>
+		</div>
+	</div>
+	<div class="popupBig developer-popup">
+			<h3 class="packege-headline"><span class="dev-span">&lt;developer&gt;</span> PACK</h3>
+			<div class="packegebig-iconwarp">
+				<div class="icon">
+				<a href="https://csshat.com/" target="_blank" title="">
+					<h4>CSS Hat2</h4>
+					<div class="icon-pic csshat2"></div>
+					</a>
+					<p>Lorem ipsum dolor sit amet,  notka vole to neni mozny visjak to nfakt ne tyjo
+					.consectetur adipisicing elit, se</p>
+				</div>
+				<div class="icon">
+					<a href="http://pnghat.madebysource.com/" target="_blank" title="">
+					<h4>PNG Hat</h4>
+					<div class="icon-pic pnghatPop"></div>
+					</a>
+					<p>Lorem ipsum dolor sit amet,  notka vole to neni mozny visjak to nfakt ne tyjo
+					.consectetur adipisicing elit, se</p>
+				</div>
+				<div class="icon">
+					<a href="http://ioshat.madebysource.com/" target="_blank" title="">
+					<h4>iOS Hat</h4>
+					<div class="icon-pic iosHat"></div>
+					</a>
+					<p>Lorem ipsum dolor sit amet,  notka vole to neni mozny visjak to nfakt ne tyjo
+					.consectetur adipisicing elit, se</p>
+				</div>
+		</div>
+	</div>
+	<div class="background-opacity"></div>
+<script type="text/javascript" src="main.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70057821-1', 'auto');
+  ga('send', 'pageview');
+
+  $('.cta-warp').on('click', function() {
+  	var data = $(this).data() + ' click';
+  	ga('send', 'event', 'buy click', data.eventname , 'Blackfriday-test');
+  });
+
+  $('.desginer-modal-open').on('hover', function() {
+  	ga('send', 'event', 'popup click', 'designer popup click', 'Blackfriday-test');
+  });
+
+  $('.developer-modal-open').on('hover', function() {
+  	ga('send', 'event', 'popup click', 'developer popup click', 'Blackfriday-test');
+  });
+
+  $('.cta-warp').hover(function() {
+  		var data = $(this).data();
+  		ga('send', 'event', 'hover - buy click', data.eventname + ' hover', 'Blackfriday-test');
+  }, function() {});
+  $('.chucknorris-includes-icons').hover(function() {
+ 		ga('send', 'event', 'Hover to see more', 'Chuck icons hover' , 'Blackfriday-test');
+  }, function() {});
+</script>
+</body>
+</html>
+
+
+
