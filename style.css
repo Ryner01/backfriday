@@ -814,4 +814,7 @@ footer {
   .developer-packege {
     margin-top: 50px;
   }
+  #academy-link {
+    display: none;
+  }
 }
