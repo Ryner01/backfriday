@@ -7,6 +7,7 @@ a {
   cursor: pointer;
 }
 header {
+  height: 565px;
   width: 100wv;
   margin-top: 66px;
 }
