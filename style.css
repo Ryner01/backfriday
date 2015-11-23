@@ -749,6 +749,8 @@ footer {
     top: 0px;
     height: 101.98555957vw;
     width: 100vw;
+    max-height: 101.98555957vw;
+    max-width: 100vw;
   }
   .chucknorris-warp .chucknorris-text {
     width: 95vw;
