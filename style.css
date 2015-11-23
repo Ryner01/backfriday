@@ -109,7 +109,7 @@ nav .menu-warp {
   color: #ff5d5a;
 }
 .chucknorris-warp {
-  height: auto;
+  height: 565px;
   background-color: #343c41;
   display: -webkit-flex;
   display: -ms-flexbox;
