@@ -723,4 +723,17 @@ footer {
   nav {
     width: 100%;
   }
+  .countdown-warp {
+    height: auto;
+  }
+  .countdown-warp p {
+    margin-top: 162px;
+    font-size: 18px;
+  }
+  .countdown-warp .countdown-icon-sales {
+    height: auto;
+  }
+  .chucknorris-warp .chucknorris-text .headline-description {
+    width: 95vw;
+  }
 }
