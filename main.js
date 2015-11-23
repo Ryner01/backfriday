@@ -181,11 +181,26 @@ $(window).resize(function(event) {
   popWidth = $('.popupBig').width() / 2;
 });
 
+var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
+
+console.log(w);
+
 console.log(windowWidth, popWidth);
-$('.popupBig').css({
-  top: '730px',
-  left: (windowWidth - popWidth) + 'px'
-});
+if (w >= 600) {
+  $('.popupBig').css({
+    top: '730px',
+    left: (windowWidth - popWidth) + 'px'
+  });
+} else {
+   $('.popupBig').css({
+      top: '0px',
+      left: '0px',
+      overflow: 'scroll',
+      position: 'fixed',
+      z-index: '1000'
+      width: '100vw'
+    });
+}
 
 
 
