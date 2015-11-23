@@ -173,6 +173,16 @@ $(document).on('click', function (e) {
   };
 });
 
+$('.popup-close').on('click', function(e) {
+  if (designerActivePack || developerActivePack) {
+    $('.designer-popup').css('display', 'none');
+    $('.developer-popup').css('display', 'none');
+    $('.background-opacity').css('display', 'none');
+    designerActivePack =  false;
+    developerActivePack = false;
+  };
+});
+
 var windowWidth = window.innerWidth / 2;
 var popWidth = $('.popupBig').width() / 2;
 
