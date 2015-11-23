@@ -174,6 +174,8 @@ $(document).on('click', function (e) {
 });
 
 $('.popup-close').on('click', function(e) {
+  console.log('ahoj');
+  console.log( designerActivePack + ' ' + developerActivePack);
   if (designerActivePack || developerActivePack) {
     $('.designer-popup').css('display', 'none');
     $('.developer-popup').css('display', 'none');
