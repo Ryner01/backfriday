@@ -197,7 +197,7 @@ if (w >= 600) {
       left: '0px',
       overflow: 'scroll',
       position: 'fixed',
-      zIindex: '1000'
+      zIindex: '1000',
       width: '100vw'
     });
 }
