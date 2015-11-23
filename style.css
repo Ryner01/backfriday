@@ -738,4 +738,18 @@ footer {
   .chucknorris-warp .chucknorris-text .headline-description {
     width: 95vw;
   }
+  .chucknorris-includes-icons {
+    flex-wrap: wrap;
+  }
+  .chucknorris-includes-icons a {
+    width: 33%;
+  }
+  .packeges-warp {
+    flex-direction: column;
+  }
+  .packege {
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
