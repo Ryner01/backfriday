@@ -173,7 +173,7 @@ $(document).on('click', function (e) {
   };
 });
 
-$('.popup-close').on('click', function(e) {
+$('.popup-close').on('click', function() {
   console.log('ahoj');
   console.log( designerActivePack + ' ' + developerActivePack);
   if (designerActivePack || developerActivePack) {
