@@ -750,6 +750,11 @@ footer {
     height: 101.98555957vw;
     width: 100vw;
   }
+  .chucknorris-warp .chucknorris-text {
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+  }
   .chucknorris-warp .chucknorris-text .headline-description {
     width: 95vw;
   }
