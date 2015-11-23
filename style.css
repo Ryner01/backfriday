@@ -109,7 +109,7 @@ nav .menu-warp {
   color: #ff5d5a;
 }
 .chucknorris-warp {
-  height: 565px;
+  height: 451px;
   background-color: #343c41;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -127,14 +127,13 @@ nav .menu-warp {
   background: url('img/norris.png');
   background-size: contain;
   position: relative;
-  top: -114px;
+  top: -50px;
 }
 .chucknorris-warp .chucknorris-text {
   width: 441px;
   margin-left: 88px;
   margin-right: 55px;
   position: relative;
-  top: -67px;
 }
 .chucknorris-warp .chucknorris-text h2 {
   font-size: 36px;
