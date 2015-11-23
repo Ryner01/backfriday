@@ -109,8 +109,6 @@ nav .menu-warp {
 }
 .chucknorris-warp {
   height: auto;
-  padding-bottom: 60px;
-  padding-top: 60px;
   background-color: #343c41;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -123,15 +121,19 @@ nav .menu-warp {
   align-items: center;
 }
 .chucknorris-warp .chucknorris-icon {
-  width: 497.5px;
-  height: 355px;
+  width: 554px;
+  height: 565px;
   background: url('img/norris.png');
   background-size: contain;
+  position: relative;
+  top: -114px;
 }
 .chucknorris-warp .chucknorris-text {
   width: 441px;
   margin-left: 88px;
   margin-right: 55px;
+  position: relative;
+  top: -67px;
 }
 .chucknorris-warp .chucknorris-text h2 {
   font-size: 36px;
