@@ -746,6 +746,7 @@ footer {
     flex-wrap: wrap;
   }
   .chucknorris-warp .chucknorris-icon {
+    top: 0px;
     height: 101.98555957vw;
     width: 100vw;
   }
@@ -755,6 +756,7 @@ footer {
   .chucknorris-includes-icons {
     flex-wrap: wrap;
     margin-left: -7vw;
+    padding-bottom: 25px;
   }
   .chucknorris-includes-icons a {
     width: 33%;
