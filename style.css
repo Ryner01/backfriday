@@ -578,6 +578,18 @@ footer {
   top: 1014px;
   left: 50%;
 }
+.popupBig .close-popup {
+  color: #ff5d5a;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
 .designer-popup {
   display: none;
 }
