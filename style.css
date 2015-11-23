@@ -728,6 +728,9 @@ footer {
   header {
     height: auto;
   }
+  .logo {
+    margin-left: 15px;
+  }
   .countdown-warp {
     height: auto;
   }
@@ -740,6 +743,11 @@ footer {
   }
   .chucknorris-warp {
     height: auto;
+    flex-wrap: wrap;
+  }
+  .chucknorris-warp .chucknorris-icon {
+    height: 101.98555957vw;
+    width: 100vw;
   }
   .chucknorris-warp .chucknorris-text .headline-description {
     width: 95vw;

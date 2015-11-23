@@ -853,6 +853,10 @@ footer {
 		height: auto;
 	}
 
+	.logo{
+		margin-left: 15px;
+	}
+
 	.countdown-warp{
 		height: auto;
 
@@ -868,6 +872,13 @@ footer {
 
 	.chucknorris-warp{
 		height: auto;
+		flex-wrap: wrap;
+		
+		.chucknorris-icon{
+			height: image-height('img/norris@2x.png') / (image-width('img/norris@2x.png') / 100vw);
+			width: image-width('img/norris@2x.png') / (image-width('img/norris@2x.png') / 100vw);
+		}
+
 		.chucknorris-text{
 			.headline-description{
 				width: 95vw;
