@@ -760,7 +760,6 @@ footer {
   }
   .chucknorris-includes-icons {
     flex-wrap: wrap;
-    margin-left: -7vw;
     padding-bottom: 25px;
   }
   .chucknorris-includes-icons a {
