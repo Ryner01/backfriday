@@ -588,7 +588,7 @@ footer {
   vertical-align: center;
   position: relative;
   top: 0px;
-  right: 95%;
+  left: 95%;
 }
 .designer-popup {
   display: none;
