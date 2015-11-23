@@ -580,15 +580,15 @@ footer {
 }
 .popupBig .close-popup {
   color: #ff5d5a;
-  width: 30px;
-  height: 30px;
+  width: 5%;
+  height: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   vertical-align: center;
   position: relative;
   top: 0px;
-  right: 0px;
+  right: 95%;
 }
 .designer-popup {
   display: none;
