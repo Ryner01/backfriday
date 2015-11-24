@@ -542,16 +542,15 @@ footer {
   background: url('img/email_icon.png');
   background-size: contain;
 }
-.elevator {
-  width: 71.5px;
-  height: 76px;
-  margin: 60px auto 0px auto;
-  background: url('img/elevator.svg');
-  background-size: contain;
-}
-.elevator:hover {
-  background: url('img/elevator-open.svg');
-  background-size: contain;
+.elevator-click {
+  text-align: center;
+  padding: 15px;
+  max-width: 217px;
+  max-height: 50px;
+  background-color: #ff973b;
+  background-image: linear-gradient(to top, #2691cf 0%, #2396d8 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.63);
 }
 .elevator-warp h2 {
   text-align: center;
