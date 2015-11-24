@@ -173,6 +173,18 @@ $(document).on('click', function (e) {
   };
 });
 
+$('.close-popup').on('click', function() {
+  console.log('ahoj');
+  console.log( designerActivePack + ' ' + developerActivePack);
+  if (designerActivePack || developerActivePack) {
+    $('.designer-popup').css('display', 'none');
+    $('.developer-popup').css('display', 'none');
+    $('.background-opacity').css('display', 'none');
+    designerActivePack =  false;
+    developerActivePack = false;
+  };
+});
+
 var windowWidth = window.innerWidth / 2;
 var popWidth = $('.popupBig').width() / 2;
 
@@ -181,11 +193,26 @@ $(window).resize(function(event) {
   popWidth = $('.popupBig').width() / 2;
 });
 
+var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
+
+console.log(w);
+
 console.log(windowWidth, popWidth);
-$('.popupBig').css({
-  top: '730px',
-  left: (windowWidth - popWidth) + 'px'
-});
+if (w >= 600) {
+  $('.popupBig').css({
+    top: '730px',
+    left: (windowWidth - popWidth) + 'px'
+  });
+} else {
+   $('.popupBig').css({
+      top: '0px',
+      left: '0px',
+      overflow: 'scroll',
+      position: 'fixed',
+      zIndex: '1000',
+      width: '100vw'
+    });
+}
 
 
 
